@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: underline;
+	color: #F00;
+}
+.tab_line td {height:2px; background:url(images/point.gif) top left repeat-x;}
+.tab_col td {height:22px; background:url(images/point.gif) top left repeat-y;}
+.tab_col div {margin:4px 20px 0px 21px;}
+
+.error_strings
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#fff;font-weight:bold;
+}
+.sfm_float_error_box
+{
+    position:absolute;
+    z-index:999;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;
+    color:#fff;
+    background-color:#ff0000;
+    border-style:solid;
+    border-width:1px;
+    border-color:#ff0000;border-radius:5px;
+}
+.sfm_float_box_td
+{
+    padding:3px;
+    cursor:default;
+    font-family:Verdana;
+    font-size:10px;font-weight:bold;
+    color:#fff;
+    background-color:#ff0000;
+}
+.sfm_close_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    color:#fff;
+    background-color:#ff0000;
+    border-width:0px;
+    text-align:center;cursor:pointer;
+	border-radius:5px;
+}
+.scrollbar {
+  		scrollbar-3dlight-color:#C6A46E;
+    scrollbar-track-color:#000000;
+    scrollbar-face-color:#000000; 
+	scrollbar-arrow-color:#C6A46E;
+		
+		}
+		
+input{font-family:Verdana;font-size:12px; 
+color: #333; 
+border-width:1px;
+border-color:#c0c0c0; 
+border-radius:5px; 
+border-style:solid; width:260px; 
+height:18px; margin-bottom:4px; 
+background: transparent url(images/input-bg.png) no-repeat left top; 
+text-align:center;
+cursor:pointer;}
+
+textarea{font-family:Verdana;font-size:12px;
+color: #333; 
+border-color:#c0c0c0;
+border-width:1px; 
+border-radius:5px; 
+border-style:solid; 
+width:248px; height:60px; 
+margin-left:14px; 
+background: transparent url(images/input-bg.png) no-repeat left top;
+overflow:hidden;
+text-align:center;
+cursor:pointer;}
+
+select{font-family:Verdana;font-size:12px; 
+color: #333; 
+border-color:#c0c0c0;
+border-width:1px; 
+border-radius:5px; 
+border-style:solid; 
+width:303px; height:24px; 
+margin-top:0px; 
+margin-bottom:4px; 
+background-color:#000;
+text-align:left;
+cursor:pointer;}
+
+.select2{font-family:Verdana;font-size:12px; 
+color: #333; 
+border-color:#c0c0c0;
+border-width:1px; 
+border-radius:5px; 
+border-style:solid; 
+width:99px; height:24px; 
+margin-top:0px; 
+margin-bottom:4px; 
+background: transparent url(images/input-bg.png) no-repeat left top;
+text-align:left;
+cursor:pointer;}
+
+.select-state {font-family:Verdana;font-size:12px; 
+color: #333; 
+border-color:#c0c0c0;
+border-width:1px; 
+border-radius:5px; 
+border-style:solid; 
+width:142px; height:20px; 
+margin-top:0px; 
+margin-bottom:4px; 
+background: transparent url(images/input-bg.png) no-repeat left top;
+text-align:center;
+cursor:pointer;}
+
+.input-index{font-family:Verdana;font-size:12px; 
+color: #333; 
+border-width:1px;
+border-color:#c0c0c0; 
+border-radius:5px; 
+border-style:solid; width:112px; 
+height:18px; margin-bottom:4px; margin-left:4px; 
+background: transparent url(images/input-bg.png) no-repeat left top; 
+text-align:center;
+cursor:pointer;}
+
+
+#submit,#reset {
+	font-family: "Comic Sans MS", cursive;
+	border-color: #c0c0c0;
+	border-radius: 5px;
+	border-style: solid;
+	width: 149px;
+	height: 30px;
+	margin-top: 4px;
+	background-color: #eee;
+	cursor: pointer;
+	font-weight: bold;
+}
+#submit:hover,
+#reset:hover {
+color: #ff0000;
+background-color: #0000ff;
+border-top-width: 2px;
+border-right-width:2px;
+border-bottom-width: 2px;
+border-left-width: 2px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #ff0000;
+border-right-color: #ff0000;
+border-bottom-color: #ff0000;
+border-left-color: #ff0000;
+}
+label{
+font-family:Verdana;font-size:12px; font-style:normal; font-weight:bold; 
+color: #0000ff; 
+border-color:#c0c0c0;
+border-width:0px; 
+border-radius:5px; 
+border-style:solid; 
+padding:0px 0px 6px 0px; 
+background-color:transparent;
+text-align:left;
+}
+#footer a.xht{
+	display:block;
+	width:48px;
+	height:10px;
+	background:url(images/xhtml_bg.gif) 0 0 no-repeat;
+	position:relative;
+	left:4px;
+	top:16px;
+	padding:0;
+	margin:0;
+}
+#footer a.xht:hover{
+	background:url(images/xhtml_bg_hover.gif) 0 0 no-repeat;
+}
+#footer a.cs{
+	display:block;
+	width:48px;
+	height:10px;
+	background:url(images/css_bg.gif) 0 0 no-repeat;
+	position:relative;
+	left:58px;
+	top:6px;
+	padding:0;
+	margin:0;
+	float:left;
+}
+
+#footer a.cs:hover{
+	background:url(images/css_bg_hover.gif) 0 0 no-repeat;
+}.Big_Red_1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #F00;
+}
+.Big_GREEN_1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #0C0;
+}
+
+.Big_Blue_1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #039;
+}
+
+.text_1 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000;
+}
+.text_1_Red {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #F00;
+}
+.text_1_Blue {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #03C;
+}
+
+
+.text_2_FOOD {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000;
+}
+.main_table {
+	height: 900px;
+}
